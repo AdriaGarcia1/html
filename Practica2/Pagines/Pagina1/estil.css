@@ -1,0 +1,15 @@
+html {
+  height: 100vh;
+  background-color: #161616;
+  background-attachment: fixed;
+}
+body header nav {
+  color: white;
+}
+body header nav ul:nth-child(1) {
+  display: block;
+}
+body header nav ul:nth-child(1) li a {
+  text-decoration: none;
+  color: white;
+}
