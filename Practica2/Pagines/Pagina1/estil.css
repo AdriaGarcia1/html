@@ -6,10 +6,19 @@ html {
 body header nav {
   color: white;
 }
-body header nav ul:nth-child(1) {
-  display: block;
+body header nav ul:nth-child(1) li {
+  font-size: 110%;
 }
 body header nav ul:nth-child(1) li a {
+  text-decoration: none;
+  color: white;
+}
+body header nav ul:nth-child(2) li {
+  width: fit-content;
+  height: fit-content;
+  padding: 1%;
+}
+body header nav ul:nth-child(2) li a {
   text-decoration: none;
   color: white;
 }
