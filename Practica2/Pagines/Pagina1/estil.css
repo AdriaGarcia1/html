@@ -6,19 +6,31 @@ html {
 body header nav {
   color: white;
 }
-body header nav ul:nth-child(1) li {
-  font-size: 110%;
+body header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
 }
-body header nav ul:nth-child(1) li a {
-  text-decoration: none;
-  color: white;
-}
-body header nav ul:nth-child(2) li {
+body header nav ul li {
   width: fit-content;
   height: fit-content;
   padding: 1%;
+  margin-top: 2%;
 }
-body header nav ul:nth-child(2) li a {
+body header nav ul li a {
   text-decoration: none;
   color: white;
+}
+body header nav ul li:nth-child(1) {
+  position: absolute;
+  font-size: 110%;
+  left: 5%;
+}
+body main div img {
+  filter: grayscale();
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  width: 45%;
+  opacity: 0.5;
 }

@@ -9,28 +9,42 @@ html{
 body{
     header{
         nav{
-         color: white;
-         ul:nth-child(1){
-            li{
-                font-size: 110%;   
-                a{
-                    text-decoration: none;
-                    color: white;
+            color: white;
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 3%;
+                li{  
+                    width: fit-content;
+                    height: fit-content;
+                    padding: 1%;
+                    margin-top: 2%;
+                    
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
-            }
-         }
 
-         ul:nth-child(2){
-            li{
-                width: fit-content;
-                height: fit-content;
-                padding: 1%;
-                a{
-                    text-decoration: none;
-                    color: white;
+                li:nth-child(1){  
+                    position: absolute;
+                    font-size: 110%;
+                    left: 5%;
                 }
             }
-         }
+        }
+    }
+
+    main{
+        div{
+            img{
+                filter: grayscale();
+                position: absolute;
+                bottom: 0%;
+                left: 40%;
+                width: 45%;
+                opacity: .5;
+            }
         }
     }
 }
