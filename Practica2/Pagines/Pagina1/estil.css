@@ -26,6 +26,16 @@ body header nav ul li:nth-child(1) {
   font-size: 110%;
   left: 5%;
 }
+body main div p {
+  color: white;
+}
+body main div p:nth-child(1) {
+  position: absolute;
+  font-size: 110%;
+  text-align: center;
+  top: 50%;
+  left: 45%;
+}
 body main div img {
   filter: grayscale();
   position: absolute;
