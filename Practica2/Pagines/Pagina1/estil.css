@@ -33,14 +33,21 @@ body main div p:nth-child(1) {
   position: absolute;
   font-size: 110%;
   text-align: center;
-  top: 50%;
-  left: 45%;
+  top: 41%;
+  left: 44%;
+  z-index: 1;
+}
+body main div p:nth-child(2) {
+  font-size: 300%;
+  position: absolute;
+  top: 43%;
+  left: 29%;
 }
 body main div img {
   filter: grayscale();
   position: absolute;
   bottom: 0%;
   left: 40%;
-  width: 45%;
+  width: 37%;
   opacity: 0.5;
 }
