@@ -1,0 +1,12 @@
+html {
+  height: 100vh;
+  background-color: #161616;
+  background-attachment: fixed;
+}
+html body header p a {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 4%;
+  left: 3%;
+}

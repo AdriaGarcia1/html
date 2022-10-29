@@ -43,6 +43,31 @@ body main div p:nth-child(2) {
   top: 43%;
   left: 29%;
 }
+body main div p:nth-child(3) {
+  font-size: 330%;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+body main div p:nth-child(4) {
+  font-size: 120%;
+  position: absolute;
+  bottom: 3.5%;
+  right: 10%;
+}
+body main div p:nth-child(5) {
+  font-size: 120%;
+  position: absolute;
+  bottom: 3.5%;
+  right: 2%;
+}
+body main div p:nth-child(6) {
+  font-size: 120%;
+  position: absolute;
+  TOP: 50%;
+  right: 42%;
+  opacity: 0.5;
+}
 body main div img {
   filter: grayscale();
   position: absolute;
