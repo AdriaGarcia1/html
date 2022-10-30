@@ -10,3 +10,6 @@ html body header p a {
   top: 4%;
   left: 3%;
 }
+html body main .columna1 {
+  background-color: yellow;
+}
