@@ -10,6 +10,101 @@ html body header p a {
   top: 4%;
   left: 3%;
 }
+html body main {
+  display: flex;
+}
 html body main .columna1 {
-  background-color: yellow;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  height: 1005px;
+  width: calc(1815px / 5);
+}
+html body main .columna1 a {
+  text-decoration: none;
+}
+html body main .columna1 a p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 140%;
+}
+html body main .columna1:hover {
+  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html body main .columna2 {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  height: 1005px;
+  width: calc(1815px / 5);
+}
+html body main .columna2 a {
+  text-decoration: none;
+}
+html body main .columna2 a p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 140%;
+}
+html body main .columna2:hover {
+  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html body main .columna3 {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  height: 1005px;
+  width: calc(1815px / 5);
+}
+html body main .columna3 a {
+  text-decoration: none;
+}
+html body main .columna3 a p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 140%;
+}
+html body main .columna3:hover {
+  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html body main .columna4 {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  height: 1005px;
+  width: calc(1815px / 5);
+}
+html body main .columna4 a {
+  text-decoration: none;
+}
+html body main .columna4 a p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 140%;
+}
+html body main .columna4:hover {
+  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html body main .columna5 {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  height: 1005px;
+  width: calc(1815px / 5);
+}
+html body main .columna5 a {
+  text-decoration: none;
+}
+html body main .columna5 a p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 140%;
+}
+html body main .columna5:hover {
+  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }

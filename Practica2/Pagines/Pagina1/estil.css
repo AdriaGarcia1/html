@@ -14,8 +14,8 @@ body header nav ul {
 body header nav ul li {
   width: fit-content;
   height: fit-content;
-  padding: 1%;
-  margin-top: 2%;
+  margin-top: 3%;
+  padding: 3px;
 }
 body header nav ul li a {
   text-decoration: none;
@@ -24,7 +24,7 @@ body header nav ul li a {
 body header nav ul li:nth-child(1) {
   position: absolute;
   font-size: 110%;
-  left: 5%;
+  left: 3%;
 }
 body main div p {
   color: white;

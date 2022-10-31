@@ -1,0 +1,53 @@
+html {
+  height: 100vh;
+  background-color: #161616;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: grayscale();
+}
+body header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
+body header nav ul li {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 3%;
+  padding-left: 2%;
+}
+body header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+body header nav ul li p {
+  color: white;
+}
+body header nav ul li:nth-child(1) {
+  position: absolute;
+  font-size: 110%;
+  left: 3%;
+}
+body header nav ul li:nth-child(2) {
+  position: absolute;
+  font-size: 110%;
+  left: 42%;
+}
+body header nav ul li:nth-child(3) {
+  position: absolute;
+  font-size: 110%;
+  left: 45.5%;
+}
+body header nav ul li:nth-child(4) {
+  position: absolute;
+  font-size: 110%;
+  left: 46.5%;
+}
+body main {
+  color: white;
+  font-size: 170%;
+  text-align: center;
+  margin-top: 19%;
+}
