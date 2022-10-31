@@ -28,9 +28,10 @@ html body main .columna1 a p {
   padding-top: 140%;
 }
 html body main .columna1:hover {
-  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-image: url(../../Imatges/ab67616d0000b2735be9da6efd25be8bc2e998e7.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 html body main .columna2 {
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -47,9 +48,10 @@ html body main .columna2 a p {
   padding-top: 140%;
 }
 html body main .columna2:hover {
-  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-image: url(../../Imatges/channels4_profile.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 html body main .columna3 {
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -66,9 +68,10 @@ html body main .columna3 a p {
   padding-top: 140%;
 }
 html body main .columna3:hover {
-  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-image: url(../../Imatges/Faf0uMQWIAAiVRM.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 html body main .columna4 {
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -87,7 +90,8 @@ html body main .columna4 a p {
 html body main .columna4:hover {
   background-image: url(../../Imatges/image-removebg-preview.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 html body main .columna5 {
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -104,7 +108,8 @@ html body main .columna5 a p {
   padding-top: 140%;
 }
 html body main .columna5:hover {
-  background-image: url(../../Imatges/image-removebg-preview.png);
+  background-image: url(../../Imatges/feid-musico-colombiano-reggaeton-2.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }

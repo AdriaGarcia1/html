@@ -1,11 +1,9 @@
 html {
   height: 100vh;
   background-color: #161616;
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  filter: grayscale();
+}
+html .capitol1:hover {
+  background-image: url(../../Imatges/FEID-10.webp);
 }
 body header nav ul {
   display: flex;
@@ -46,8 +44,24 @@ body header nav ul li:nth-child(4) {
   left: 46.5%;
 }
 body main {
-  color: white;
   font-size: 170%;
   text-align: center;
   margin-top: 19%;
+}
+body main .capitol1 a {
+  text-decoration: none;
+}
+body main .capitol1 p {
+  margin-top: 0.5%;
+  color: white;
+}
+body main .capitol2 a {
+  text-decoration: none;
+}
+body main .capitol2 p {
+  color: white;
+  margin-top: 0.5%;
+}
+body main .capitol2 p:nth-child(1) {
+  margin-top: 2%;
 }

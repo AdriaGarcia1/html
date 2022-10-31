@@ -1,13 +1,10 @@
-@color_fons: rgb(22, 22, 22);
+@color_fons: rgb(22, 22, 22,0.5);
 html{
     height: 100vh;
-    background-color: @color_fons;
-    background-attachment: fixed; 
-    background-image: url(); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: grayscale();
+    background-color: @color_fons; 
+    .capitol1:hover{
+        background-image: url(../../Imatges/FEID-10.webp);
+    }
 }
 
 body{
@@ -55,9 +52,32 @@ body{
         }
     }
     main{
-        color: white;
         font-size: 170%;
         text-align: center;
         margin-top: 19%;
+        .capitol1{
+            a{
+                text-decoration: none;
+            }
+            p{
+                margin-top: 0.5%;
+                color: white;
+            }
+        }  
+
+        .capitol2{
+            a{
+                text-decoration: none;
+            }
+
+            p{
+                color: white;
+                margin-top: 0.5%;
+            }
+
+            p:nth-child(1){
+                margin-top: 2%;
+            }
+        }
     }
 }
