@@ -2,9 +2,6 @@ html {
   height: 100vh;
   background-color: #161616;
 }
-html .capitol1:hover {
-  background-image: url(../../Imatges/FEID-10.webp);
-}
 body header nav ul {
   display: flex;
   justify-content: flex-end;
@@ -48,12 +45,20 @@ body main {
   text-align: center;
   margin-top: 19%;
 }
+body main .capitol1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 body main .capitol1 a {
   text-decoration: none;
 }
 body main .capitol1 p {
   margin-top: 0.5%;
   color: white;
+}
+body main .a:hover body {
+  background-image: url(../../Imatges/FEID-10.webp);
 }
 body main .capitol2 a {
   text-decoration: none;
