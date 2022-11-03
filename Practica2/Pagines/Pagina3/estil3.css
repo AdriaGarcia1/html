@@ -48,6 +48,11 @@ body main {
   text-align: center;
   margin-top: 19%;
 }
+body main .capitol1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 body main .capitol1 a {
   text-decoration: none;
 }
