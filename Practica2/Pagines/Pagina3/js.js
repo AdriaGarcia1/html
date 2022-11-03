@@ -13,5 +13,5 @@ function f_hover2(){
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.filter = "grayscale()";
-    document.body.style.opacity = ".5";
+   document.body.style.opacity = ".5";
 }
