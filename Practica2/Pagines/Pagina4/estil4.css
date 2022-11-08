@@ -1,0 +1,78 @@
+html {
+  height: 100vh;
+  background-color: white;
+}
+body header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
+body header nav ul li {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 3%;
+  padding-left: 2%;
+}
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+body header nav ul li p {
+  color: black;
+}
+body header nav ul li:nth-child(1) {
+  position: absolute;
+  font-size: 110%;
+  left: 3%;
+}
+body header nav ul li:nth-child(2) {
+  position: absolute;
+  font-size: 110%;
+  left: 42%;
+}
+body header nav ul li:nth-child(3) {
+  position: absolute;
+  font-size: 110%;
+  left: 46.5%;
+}
+body header nav ul li:nth-child(4) {
+  position: absolute;
+  font-size: 110%;
+  left: 47.2%;
+}
+body main #filter {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  top: 0px;
+  background-color: #3d3838;
+}
+body main #filter p:nth-child(1) {
+  color: white;
+  margin-top: 60%;
+  text-align: center;
+  font-size: 140%;
+}
+body main #filter p:nth-child(2) {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+body main .radio {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 10%;
+  color: white;
+}
+body main .radio #any1:checked ~ #imatgesCansons .anyy2,
+body main .radio #any1:checked ~ #imatgesCansons .anyy3 {
+  display: none;
+}
+body main .radio #any2:checked ~ #imatgesCansons .anyy1,
+body main .radio #any2:checked ~ #imatgesCansons .anyy3 {
+  display: none;
+}
+body main .radio #any3:checked ~ #imatgesCansons .anyy1,
+body main .radio #any3:checked ~ #imatgesCansons .anyy2 {
+  display: none;
+}
