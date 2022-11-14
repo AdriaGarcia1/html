@@ -1,0 +1,50 @@
+
+@media(min-width: 1100px){
+    body{
+        header{
+            background-color: rgb(38, 255, 38);
+            height: 45px;
+            font-size: 110%;
+            display: flex;
+            align-items: center;
+            border: 1.5px solid black;
+            div{
+                display: none;
+            }
+        }
+
+        nav{
+            ul{
+                display: flex;
+                li{
+                    height: 50px;
+                    width: calc(100% / 4);
+                    border: 1.5px solid black;
+                    background-color: rgb(173, 169, 169);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        main{
+            margin: 0px auto;
+            display: flex;
+            max-width: 1100px;
+            padding-top: 0.6%;
+            #contents{
+                order: 1;
+                background-color: turquoise;
+            }
+
+            #leftc{
+                order: 3;
+            }
+
+            #rightc{
+                order: 2;
+            }
+        }
+    }
+}
