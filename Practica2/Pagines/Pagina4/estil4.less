@@ -1,0 +1,93 @@
+@color_fons: white;
+html{
+    height: 100vh;
+    background-color: @color_fons; 
+}
+
+body{
+    header{
+        nav{
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 4%;
+                li{
+                    width: fit-content;
+                    height: fit-content;
+                    margin-top: 3%;
+                    padding-left: 2%;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                    p{
+                        color: black;
+                    }
+                }
+
+                li:nth-child(1){
+                    position: absolute;
+                    font-size: 110%;
+                    left: 3%;
+                }
+                li:nth-child(2){
+                    position: absolute;
+                    font-size: 110%;
+                    left: 42%;
+                }
+                li:nth-child(3){
+                    position: absolute;
+                    font-size: 110%;
+                    left: 46.5%;
+                }
+                li:nth-child(4){
+                    position: absolute;
+                    font-size: 110%;
+                    left: 47.2%;
+                }
+            }
+        }
+    }
+
+    main{
+        #filter{
+            //display: none;
+            position: absolute;
+            height: 100%;
+            width: 20%;
+            top: 0px;
+            background-color: rgb(61, 56, 56);
+
+            p:nth-child(1){
+                color: white;
+                margin-top: 60%;
+                text-align: center;
+                font-size: 140%;
+            }
+            p:nth-child(2){
+                color: white;
+                text-align: center;
+                margin-top: 10%;
+            }
+        }
+
+        .radio{
+            position: absolute;
+            margin-left: 40%;
+            margin-top: 10%;
+            color: white;
+
+            #any1:checked ~ #imatgesCansons .anyy2, #any1:checked ~ #imatgesCansons .anyy3{
+                display: none;
+            }
+
+            #any2:checked ~ #imatgesCansons .anyy1, #any2:checked ~ #imatgesCansons .anyy3{
+                display: none;
+            }
+
+            #any3:checked ~ #imatgesCansons .anyy1, #any3:checked ~ #imatgesCansons .anyy2{
+                display: none;
+            }
+        }
+    }
+}
