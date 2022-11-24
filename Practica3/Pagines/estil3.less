@@ -1,0 +1,66 @@
+// @altura_Producte: 70px;
+// @amplada_Producte: 35px;
+
+#practica3{
+    height: 100%;
+    body{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        header{
+            display: flex;
+
+            //Aquí toquem tot el tema de la imatge de fons
+            background-image: url(../Imatges/header.jpg);
+            background-image: no-repeat;
+            background-image: fixed;
+            background-image: center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            //fins aqui
+
+            height: 16%;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            p{  
+                //Aquí tot lo relaciont amb la font
+                font-family: "Courier New", Courier, monospace;
+                font-size: 25px;
+                letter-spacing: 1.6px;
+                word-spacing: 3.8px;
+                color: #000000;
+                font-weight: 700;
+                text-decoration: none solid rgb(68, 68, 68);
+                font-style: normal;
+                font-variant: normal;
+                text-transform: uppercase;
+                //Fins aqui
+
+                font-size: 270%;
+            }
+        }
+
+        main{
+            display: flex;
+            flex: 1;
+            .s1{
+                display: grid;
+                margin: 7%; 
+                background-color: yellow;
+                height: 80%;
+                width: 35%;
+            }
+
+            .s2{
+                margin: 7%; 
+                background-color: green;
+                height: 80%;
+                width: 35%;
+            }
+        }
+    }
+}
