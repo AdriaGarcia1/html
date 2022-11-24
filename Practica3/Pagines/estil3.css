@@ -37,7 +37,7 @@
 #practica3 body main {
   display: flex;
   flex: 1;
-  margin-left: 8  %;
+  margin-left: 8%;
 }
 #practica3 body main .s1 {
   display: grid;
