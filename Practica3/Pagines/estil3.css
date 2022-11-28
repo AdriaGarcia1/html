@@ -38,18 +38,68 @@
 #practica3 body main {
   display: flex;
   flex: 1;
-  margin-left: 8%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10%;
 }
-#practica3 body main .s1 {
-  display: grid;
-  margin: 5%;
-  background-color: yellow;
-  height: 80%;
-  width: 35%;
+#practica3 body main div {
+  flex: auto;
+  width: 40%;
+  height: 150%;
+  border: 1px solid black;
+  margin-bottom: 10%;
 }
-#practica3 body main .s2 {
-  margin: 5%;
-  background-color: green;
-  height: 80%;
-  width: 35%;
+#practica3 body main div:nth-child(odd) {
+  margin-right: 6%;
+}
+#practica3 body main div:nth-child(1) {
+  background-image: url(../Imatges/camiseta1.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body main div:nth-child(2) {
+  background-image: url(../Imatges/camiseta2.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body main div:nth-child(3) {
+  background-image: url(../Imatges/camiseta3.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body main div:nth-child(4) {
+  background-image: url(../Imatges/camiseta4.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body main div:nth-child(5) {
+  background-image: url(../Imatges/camiseta5.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body main div:nth-child(6) {
+  background-image: url(../Imatges/camiseta6.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+#practica3 body footer {
+  display: flex;
+  background-image: url(../Imatges/header.jpg);
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  height: 16%;
+  width: 100%;
 }

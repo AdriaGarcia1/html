@@ -50,14 +50,81 @@
             flex: 1;  
             flex-wrap: wrap;
             justify-content: space-between;
-            margin: 5%;
+            margin: 10%;
 
             div{
                 flex: auto;
-                background-color: aqua;
-                width: 50%;
-                height: 50%;
+                width: 40%;
+                height: 150%;
+                border: 1px solid black;
+                margin-bottom: 10%;
             }
+
+            div:nth-child(odd){
+                margin-right: 6%;
+            }
+
+            div:nth-child(1){
+                background-image: url(../Imatges/camiseta1.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+
+            div:nth-child(2){
+                background-image: url(../Imatges/camiseta2.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+
+            div:nth-child(3){
+                background-image: url(../Imatges/camiseta3.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+
+            div:nth-child(4){
+                background-image: url(../Imatges/camiseta4.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+
+            div:nth-child(5){
+                background-image: url(../Imatges/camiseta5.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+
+            div:nth-child(6){
+                background-image: url(../Imatges/camiseta6.jfif);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+                background-size:cover;
+            }
+        }
+
+        footer{
+            display: flex;
+
+            //Aquí toquem tot el tema de la imatge de fons
+            background-image: url(../Imatges/header.jpg);
+            background-image: no-repeat;
+            background-image: fixed;
+            background-image: center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            //fins aqui
+
+            position: absolute;
+            bottom: 0;
+            height: 16%;
+            width: 100%;
         }
     }
 }
