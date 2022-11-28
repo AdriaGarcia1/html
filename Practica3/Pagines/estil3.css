@@ -88,18 +88,3 @@
   background-position: 50% 100%;
   background-size: cover;
 }
-#practica3 body footer {
-  display: flex;
-  background-image: url(../Imatges/header.jpg);
-  background-image: no-repeat;
-  background-image: fixed;
-  background-image: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: absolute;
-  bottom: 0;
-  height: 16%;
-  width: 100%;
-}
