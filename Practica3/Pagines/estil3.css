@@ -16,7 +16,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 16%;
+  height: 15%;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10%;
+  margin: 8%;
 }
 #practica3 body main div {
   flex: auto;
