@@ -43,8 +43,14 @@
   margin: 8%;
 }
 #practica3 body main div {
+  display: grid;
   border: 1px solid black;
   background-color: #f3f0f0ec;
+}
+#practica3 body main div #descompte {
+  height: 40px;
+  width: 110px;
+  background-color: blue;
 }
 #practica3 body main div:nth-child(-n+4) {
   margin-bottom: 10%;
